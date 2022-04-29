@@ -26,10 +26,7 @@ public class FamilyTree {
 			childNode.parent = this;
 		}
 
-		// Searches subtree at this node for a node
-		// with the given name. Returns the node, or null if not found.
 		TreeNode getNodeWithName(String targetName) {
-			// Does this node have the target name?
 			if (name.equals(targetName))
 				return this;
 
